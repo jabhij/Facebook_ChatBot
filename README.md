@@ -1,6 +1,6 @@
 ## Facebook ChatBot
 
-Creating a ChatBot using Python for my facebook page.
+Creating a ChatBot using Python for my [Facebook Page](https://www.facebook.com/geeksangle/).
 
 ## Description
 
@@ -44,10 +44,10 @@ Install `ngrok` from [web - ngrok](https://ngrok.com/)
 - Create a [Facebook App](https://developers.facebook.com/apps/).
 - Add a Product- `Messenger`.
 - Enable webhooks. Use the above URL as the callback webhook URL.
-- Edit `[fb_chatbot_server.py](https://github.com/jabhij/Facebook_ChatBot/blob/master/fb_chatbot_server.py)` and update the `VERIFY_TOKEN` with the token you set.
+- Edit [fb_chatbot_server.py](https://github.com/jabhij/Facebook_ChatBot/blob/master/fb_chatbot_server.py) and update the `VERIFY_TOKEN` with the token you set.
 - Once the callback is verified, subscribe the app to one of your pages.
 - Generate a `Page Access Token` for your page.
-- Edit `[fb_chatbot_server.py](https://github.com/jabhij/Facebook_ChatBot/blob/master/fb_chatbot_server.py)` and update the `ACCESS_TOKEN` with the new token.
+- Edit [fb_chatbot_server.py](https://github.com/jabhij/Facebook_ChatBot/blob/master/fb_chatbot_server.py) and update the `ACCESS_TOKEN` with the new token.
 
 ### Catch me
 
