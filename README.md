@@ -19,8 +19,8 @@ Follow the steps described below.
 
 Install Flask and requests using `pip` if you already don't have any in your machine.
 
-`pip install flask
-pip install requests`
+`pip install flask`    
+`pip install requests`
 
 #### 1.2 ngrok
 
