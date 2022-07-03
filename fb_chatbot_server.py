@@ -4,6 +4,7 @@ import requests
 
 app = Flask(__name__)
 
+
 # Provide Access Token
 """
 Alike -
@@ -11,6 +12,7 @@ EACYKP066VrUBAP0YUzCYMsbk1543fXCqAPrC5NEUfmkZC1JJRHkwzZBOKPXKuxhzliy7hMjVuVBhsu6
 """
 ACCESS_TOKEN = " "
 VERIFY_TOKEN = " "
+
 
 # Reply Request
 def reply(user_id, msg):
@@ -21,6 +23,7 @@ def reply(user_id, msg):
     resp = requests.post("https://graph.facebook.com/v2.6/me/messages?access_token=" + ACCESS_TOKEN, json=data)
     print(resp.content)
 
+    
 # Access Route - GET Call
 @app.route('/', methods=['GET'])
 def handle_verification():
@@ -29,6 +32,7 @@ def handle_verification():
     else:
         return "Invalid Verification Token!"
 
+    
 # Access Route - POST Call
 @app.route('/', methods=['POST'])
 def handle_incoming_messages():
