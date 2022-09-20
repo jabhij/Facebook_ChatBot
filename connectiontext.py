@@ -8,7 +8,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-# Setting a ROUTE
+# Setting a ROUTE through GET method
 @app.route('/', methods=['GET'])
 def handle_verification():
     return request.args['hub.challange']
